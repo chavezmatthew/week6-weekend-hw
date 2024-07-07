@@ -1,4 +1,8 @@
-# Ecommerce Application Setup and Usage Guide
+# Ecommerce Application Overview
+
+## About
+
+This is an ecommerce application where users can perform various actions such as adding, viewing, editing, and deleting customers, products, orders, and customer accounts. Customers have functionalities like making orders, tracking orders, canceling orders, and viewing order history. Administrators have additional privileges such as viewing stock levels, updating stock levels, and restocking items if stock levels fall too low.
 
 ## Setup
 
