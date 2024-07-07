@@ -6,15 +6,16 @@ This is an ecommerce application where users can perform various actions such as
 
 ## Setup
 
-1. **Set up a virtual environment:**
+1. **Open VS Code**
+2. **Set up a virtual environment:**
    - Windows: `python -m venv venv`
    - Mac: `python3 -m venv venv`
 
-2. **Activate your virtual environment:**
+3. **Activate your virtual environment:**
    - Windows: `venv\Scripts\activate`
    - Mac: `source venv/bin/activate`
 
-3. **Install requirements:**
+4. **Install requirements:**
    - `pip install -r requirements.txt`
 
 ## Running the Application
