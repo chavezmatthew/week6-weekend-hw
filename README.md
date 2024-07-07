@@ -7,6 +7,7 @@ This is an ecommerce application where users can perform various actions such as
 ## Setup
 
 1. **Open VS Code**
+   - Clone the repository: [Github link](https://github.com/chavezmatthew/week6-weekend-hw.git)
 2. **Set up a virtual environment:**
    - Windows: `python -m venv venv`
    - Mac: `python3 -m venv venv`
