@@ -140,9 +140,8 @@ class OrderSchema(ma.Schema):
     total_price = fields.Float()
 
     class Meta:
-        ordered = True
         fields = ('id', 'customer_id', 'items', 'order_date', 'expected_delivery_date','shipment_details', 'status', 'total_price')
-        
+        ordered = True
 
 customer_schema = CustomerSchema()
 customers_schema = CustomerSchema(many=True)
