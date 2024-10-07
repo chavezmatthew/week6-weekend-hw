@@ -68,7 +68,7 @@
 						"method": "GET",
 						"header": [],
 						"url": {
-							"raw": "http://127.0.0.1:5000/customers/4",
+							"raw": "http://127.0.0.1:5000/customers/24",
 							"protocol": "http",
 							"host": [
 								"127",
@@ -79,7 +79,7 @@
 							"port": "5000",
 							"path": [
 								"customers",
-								"4"
+								"24"
 							]
 						}
 					},
@@ -100,7 +100,7 @@
 							}
 						},
 						"url": {
-							"raw": "http://127.0.0.1:5000/customers/13",
+							"raw": "http://127.0.0.1:5000/customers/4",
 							"protocol": "http",
 							"host": [
 								"127",
@@ -111,7 +111,7 @@
 							"port": "5000",
 							"path": [
 								"customers",
-								"13"
+								"4"
 							]
 						}
 					},
@@ -288,7 +288,7 @@
 						"header": [],
 						"body": {
 							"mode": "raw",
-							"raw": "{\r\n    \"customer_id\": 1,\r\n    \"items\": [1,2]\r\n}",
+							"raw": "{\r\n    \"customer_id\": 24,\r\n    \"products\": [\r\n        {\r\n            \"product_id\": 3,\r\n            \"quantity\": 1\r\n        },\r\n        {\r\n            \"product_id\": 4,\r\n            \"quantity\": 2\r\n        }\r\n    ],\r\n    \"shipment_details\": \"Courier to deliver\",\r\n    \"status\": \"Pending\"\r\n}",
 							"options": {
 								"raw": {
 									"language": "json"
@@ -340,7 +340,7 @@
 						"method": "GET",
 						"header": [],
 						"url": {
-							"raw": "http://127.0.0.1:5000/orders/22",
+							"raw": "http://127.0.0.1:5000/orders/58",
 							"protocol": "http",
 							"host": [
 								"127",
@@ -351,7 +351,7 @@
 							"port": "5000",
 							"path": [
 								"orders",
-								"22"
+								"58"
 							]
 						}
 					},
@@ -418,7 +418,7 @@
 						"method": "DELETE",
 						"header": [],
 						"url": {
-							"raw": "http://127.0.0.1:5000/orders/",
+							"raw": "http://127.0.0.1:5000/orders/58",
 							"protocol": "http",
 							"host": [
 								"127",
@@ -429,7 +429,7 @@
 							"port": "5000",
 							"path": [
 								"orders",
-								""
+								"58"
 							]
 						}
 					},
